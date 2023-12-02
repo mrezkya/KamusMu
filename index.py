@@ -14,12 +14,14 @@ def index():
 
 @app.route('/test', methods = ['POST', 'GET'])
 def test():
-    b =  request.form.get('info')
-    if request.method == 'GET':
-        return render_template('test.html')
-    elif request.method == 'POST':
-        print(b)
-        return render_template('test.html')
+    return render_template('test.html')
+    
+@app.route('/process', methods = ['POST'])
+def process():
+    b =  request.form.get('muna')
+    c =  request.form.get('indo')
+
+    return render_template('index.html')
 
 if __name__ == '__main__':
     app.run(debug=True)
