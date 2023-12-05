@@ -32,6 +32,29 @@ class kamus:
         for i in a:
             if self.kata == i:
                 return a[i]
+    def Cekin(self) -> str:
+        for i in a:
+            # print(f'i {i}')
+            # print(f'a {a[i]}')
+            # print(f'c {self.kata}')
+            if self.kata == a[i]:
+                print(i)
 
+class terjemahan:
+    def __init__(self,muna,indo,pasw):
+        self.muna =  muna
+        self.indo =  indo
+        self.pasw =  pasw
+
+    def tambah(self):
+        x = self.muna
+        y = self.indo
+        __pw = self.pasw
+        if __pw == '123':
+            a[y] = x
+            print(a)
+
+# terjemahan('go','pergi','123').tambah()
 # a = kamus('makan').CekMu()
 # print(a)
+# kamus('nolodo').Cekin()
