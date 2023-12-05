@@ -3,3 +3,8 @@ Aplikasi Berbasis web untuk pembuatan aplikasi E kamus untuk menerjemahkan bahas
 
 # flowchart
 ![Flowchart](https://github.com/mrezkya/KamusMu/blob/main/Blank%20diagram.jpeg)
+
+# Cara menjalankan aplikasi
+```python
+python3 index.py
+````
